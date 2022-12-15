@@ -92,6 +92,7 @@ func mapFonts(font string) (map[int][]string, error) {
 	readFile, err := os.ReadFile(font)
 	if err != nil {
 		return nil, fmt.Errorf("could not read the content in the file: %v", err)
+		// log.Fatalf("%v - internal server error", http.StatusInternalServerError)
 	}
 	slice := strings.Split(string(readFile), "\n")
 

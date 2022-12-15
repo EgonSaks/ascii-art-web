@@ -55,4 +55,9 @@ In the root project directory create a README.MD file with the following section
 
 ## Usage
 
+```
+go run . 
+```
+
 [Here's an example.](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
+
