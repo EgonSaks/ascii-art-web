@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Slab:wght@700&display=swap');
+
+html {
+    /* 1 */
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu Mono';
+    text-align: justify;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+img {
+    border: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Ubuntu Mono';
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+
+/*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
+.btn-success {
+    color: #fff;
+    background-color: #198754;
+    border-color: #fff; /*set the color you want here*/
+}
+.btn-success:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #056237;
+    border-color: #fff; /*set the color you want here*/
+}
+
+/*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
+.btn-warning {
+    color: #fff;
+    background-color: #ffc107;
+    border-color: #fff; /*set the color you want here*/
+}
+.btn-warning:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #fff; /*set the color you want here*/
+}
+
+/*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
+.btn-light {
+    color: #fff;
+    background-color: #0944e6;
+    border-color: #fff; /*set the color you want here*/
+}
+.btn-light:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #1265eb;
+    border-color: #fff; /*set the color you want here*/
+}
+
+pre{
+    background-color: #0e643c; 
+    margin-left: 10%;
+    margin-right: 10%;
+    opacity: 0.9;
+} 
+
+.container{
+    background-color: #0e643c; 
+    background-image: url('/static/images/matrix.webp');
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+#reset{
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+#buttons{
+    width: 10%;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+@media only screen and (max-width: 400px) {
+    p {
+        letter-spacing: 0.2px;
+    }
+
+}
+
+ul li, ol li {
+    line-height: 2.4rem;
+    font-weight: 300;
+    color: #666;
+}
+
+img {
+    max-width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+img, pre {
+    border-radius: 4px;
+}
+
+.wrapper-normal, .wrapper-large {
+    height: 100%;
+    width: 96%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 400px) {
+    .wrapper-normal, .wrapper-large {
+        width: 88%;
+    }
+}
+
+@media only screen and (min-width: 400px) and(max-width: 1050px) {
+    .wrapper-normal, .wrapper-large {
+        width: 88%;
+    }
+}
